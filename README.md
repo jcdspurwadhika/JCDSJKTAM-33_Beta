@@ -1,7 +1,7 @@
 # JCDSJKTAM-33_Beta
 # TECO Customer Churn Analysis and Predictor
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tecochurn.streamlit.app/)
-![Python](https://img.shields.io/badge/Python-3.13-blue)
-![Library](https://img.shields.io/badge/Library-Scikit_Learn-orange)
-![Status](https://img.shields.io/badge/Status-Completed-green)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tecochurn.streamlit.app)
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-ML_Library-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-2ECC71?style=for-the-badge)
