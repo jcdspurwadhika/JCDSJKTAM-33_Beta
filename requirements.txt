@@ -1,4 +1,5 @@
 streamlit
 pandas
 category_encoders
+imbalanced-learn
 plotly
