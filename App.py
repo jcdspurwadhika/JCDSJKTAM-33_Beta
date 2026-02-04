@@ -100,7 +100,6 @@ tenure = st.number_input(
     min_value=0,
     max_value=72,
     step=1,
-    format='%i',
     help='Number of months the customer has stayed with the company.'
 )
 st.caption("Tenure range: 0-72")
