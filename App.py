@@ -5,7 +5,7 @@ import plotly.express as px
 import base64
 
 
-st.set_page_config(page_title='TECO Customer Churn Predictor', page_icon= "TECOCo.jpeg", layout="wide")
+st.set_page_config(page_title='TECO Customer Churn Predictor', page_icon= "Assets/TECOCo.jpeg", layout="wide")
 st.title('TECO Customer Churn Predictor')
 
 with st.sidebar:
@@ -330,3 +330,4 @@ if st.button('Predict'):
         )
 
         st.plotly_chart(fig, use_container_width=True)
+
