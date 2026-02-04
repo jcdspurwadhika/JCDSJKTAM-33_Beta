@@ -16,7 +16,7 @@ with st.sidebar:
         <div style="display:flex; justify-content:center;">
             <img src="data:image/jpeg;base64,{}" width="120">
         </div>
-        """.format(base64.b64encode(open("TECOCo.jpeg", "rb").read()).decode()),
+        """.format(base64.b64encode(open("Assets/TECOCo.jpeg", "rb").read()).decode()),
         unsafe_allow_html=True
     )
     st.markdown("<hr style='margin:10px 0;'>", unsafe_allow_html=True)
@@ -237,12 +237,13 @@ with container4:
     with col2:
         total_charge = st.number_input(
             'Total Charge',
-            min_value=18.0,
+            min_value=monthly_charge,
             max_value=8685.0,
             step=10.0,
             format='%.2f',
             help='Total amount billed to the customer so far.'
         )
+    st.caption("Total Charge can't be less than Monthly Charge.")
 
 actual_charges = monthly_charge * tenure
 
